@@ -1,0 +1,32 @@
+/* styles/main.css */
+:root {
+  --brand-shadow: 0 6px 20px rgba(0,0,0,.08);
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+.card {
+  border: none;
+  box-shadow: var(--brand-shadow);
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+#search::placeholder {
+  opacity: .75;
+}
+
+.btn-icon {
+  border: none;
+  background: transparent;
+  padding: .375rem .5rem;
+  border-radius: .5rem;
+}
+
+.btn-icon:hover {
+  background: rgba(0,0,0,.05);
+}
