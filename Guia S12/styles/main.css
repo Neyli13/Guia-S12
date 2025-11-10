@@ -1,0 +1,16 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
